@@ -4,14 +4,14 @@
 	font-family: Helvetica;
 }
 body {
-	background-color: lightgray;
+	background-color: white;
 }
 h1 {
 	text-align: center;
 }
 section {
 	border: 1px solid black;
-	background-color: #b5c4d2;
+	background-color: gray;
 	margin: 10px;
 
 }
@@ -33,16 +33,17 @@ section>p{
 	padding: 40px 15px 15px 15px;
 }
 section.first>h2 {
-    background-color: #76b8db;
+    background-color: pink;
 }
 
 section.second>h2 {
-    background-color: #4f7acd;
+    background-color: red;
+    color: white;
 }
 
 section.third>h2 {
-    color: #e2e2e2;
-    background-color: #10328a;
+    color: solid black;
+    background-color: lightblue;
 }
 .row {
 	width: 100%;
